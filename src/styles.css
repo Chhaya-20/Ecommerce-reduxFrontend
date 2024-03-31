@@ -1,0 +1,207 @@
+/* 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+ 
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: large;
+  width: 80%;
+  margin-bottom: 18px;
+  background-color: aliceblue;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.update {
+  margin-left: 10px;
+  background-color: #ffc107;
+}
+.li{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  padding: 10px;
+
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  align-items: center;
+}
+ul{
+  display: flex;
+  
+  width: 80%;
+}
+.img{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+}
+.img img{
+  height: 40%;
+}
+
+.add{
+  text-align: center;
+}
+.card{
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  width: 20%;
+  margin: 10px;
+}
+.container{
+  display: flex;
+
+ 
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+}
+.card img{
+  width: 50%;
+}
+.go{
+  position: absolute;
+  top: 5%;
+  border-radius: 20px;
+  right: 2%;
+}
+.btn{
+  border-radius: 20px;
+}
+
+.items{
+  border-radius:20px;
+  background-color: green;
+  margin-top: 20px;
+
+}
+.imgs{
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+
+}
+ */
+
+ .card{
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+ 
+ }
+ .containers{
+  flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .img{
+  margin: auto;
+    display: block;
+    height: 10%;
+    width: 70%;
+ }
+
+ .nav-item.active {
+ 
+  font-weight: bold;
+}
+
+
+
+.c {
+  border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    height: 20%;
+    width: 40%;
+    text-align: center;
+  
+}
+
+.c img {
+  display: block;
+  margin: auto;
+  max-width: 20%;
+  
+}
+
+.button-container {
+  margin-top: 10px; /* Adjust margin as needed */
+}
+.p{
+
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+}
+.empty{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav{
+  position: fixed
+}
+
